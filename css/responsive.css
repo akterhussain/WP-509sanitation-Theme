@@ -1,0 +1,644 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.header-search input[type="text"] {
+    width: 100%;
+}
+.header-search i {
+    right: 20px;
+}
+a.widget-post p {
+    font-size: 13px;
+}
+.single-widget span {
+    font-size: 13px;
+}
+.business-hour li {
+    font-size: 11px;
+}
+ul.business-hour li span {
+    font-size: 10px;
+}
+}
+
+ 
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+/* START HEADER AREA*/
+
+.email_header{
+    display: none;
+}
+
+.header-top a {
+    color: #fff;
+    transition: .3s;
+    font-size: 12px;
+}
+
+.header-top a i {
+    padding-right: 8px;
+    color: #fff;
+}
+
+.logo img {
+    width: 48px;
+    height: auto;
+}
+
+.main-menu{
+    display: none;
+}
+
+.reponsive_menu{
+    display: block;
+}
+
+.sidepanel {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 240px;
+    top: 0px;
+    right: 0px;
+    background-color: #666666;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 34px;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #333333;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 24px;
+}
+
+.openbtn {
+    font-size: 24px;
+    cursor: pointer;
+    color: #666666;
+    border: none;
+    background: none;
+    float: right;
+    padding-top: 12px;
+}
+
+.openbtn:hover {
+    color: #FE0000;
+}
+
+.responsive_menu_content ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.responsive_menu_content ul li{
+    color: #fff;
+}
+
+.responsive_menu_content ul li a {
+    color: #fff;
+    margin: 0;
+    padding: 5px 22px;
+    font-size: 16px;
+}
+
+.responsive_menu_content ul li a:hover {
+    color: #fff;
+    padding: 5px 22px;
+    background: #333333;
+
+
+}
+
+
+.header-search {
+    display: none;
+}
+
+/* END HEADER AREA*/
+
+
+    
+.logo {
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+
+.main-menu {
+    margin-top: 31px;
+}
+
+.main-menu ul li a {
+    font-size: 11px;
+}
+
+.header-search {
+    margin-top: 28px;
+}
+
+.header-search input {
+    width: 100%;
+}
+
+.header-search button {
+    position: absolute;
+    top: 30px;
+    right: 14px;
+    color: #666666;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    background: none;
+}
+
+.header-search input[type="text"] {
+    height: 26px;
+}
+.header-search i {
+    top: 27px;
+    right: 18px;
+    font-size: 12px;
+}
+.single-promotion span {
+    font-size: 10px;
+}
+.about-heading p {
+    font-size: 14px;
+}
+.about-heading p {
+    width: 438px;
+}
+.service-para {
+    width: 536px;
+}
+.single-service img {
+    height: auto;
+}
+.slider-description input {
+    margin-right: 78px;
+    margin-bottom: 10px;
+}
+.icon_area i {
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+}
+
+.reason-title h4 {
+    font-size: 16px;
+    line-height: 23px;
+}
+.reason-title p {
+    font-size: 14px;
+    line-height: 23px;
+}
+.single-counter{
+    margin-bottom: 22px;
+}
+.single-counter:last-child{
+    margin-bottom: 0px;
+}
+.widget-post img {
+    width: 60px;
+}
+.single-widget h2 {
+    font-size: 20px;
+}
+.single-widget p {
+    font-size: 13px;
+}
+.single-widget span {
+    font-size: 13px;
+}
+.single-widget ul li a:hover{
+    padding-left: 0px;
+}
+.business-hour li {
+    font-size: 13px;
+}
+ul.business-hour li span {
+    display: block;
+    font-size: 12px;
+    margin-left: 0px;
+}
+.copyright p {
+    font-size: 12px;
+}
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/* START HEADER AREA*/
+
+.email_header{
+    display: none;
+}
+
+.header-top a {
+    color: #fff;
+    transition: .3s;
+    font-size: 12px;
+}
+
+.header-top a i {
+    padding-right: 8px;
+    color: #fff;
+}
+
+.logo img {
+    width: 48px;
+    height: auto;
+}
+
+.main-menu{
+    display: none;
+}
+
+.reponsive_menu{
+    display: block;
+}
+
+.sidepanel {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 240px;
+    top: 0px;
+    right: 0px;
+    background-color: #666666;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 34px;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #333333;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 24px;
+}
+
+.openbtn {
+    font-size: 24px;
+    cursor: pointer;
+    color: #666666;
+    border: none;
+    background: none;
+    float: right;
+    padding-top: 12px;
+}
+
+.openbtn:hover {
+    color: #FE0000;
+}
+
+.responsive_menu_content ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.responsive_menu_content ul li{
+    color: #fff;
+}
+
+.responsive_menu_content ul li a {
+    color: #fff;
+    margin: 0;
+    padding: 5px 22px;
+    font-size: 16px;
+}
+
+.responsive_menu_content ul li a:hover {
+    color: #fff;
+    padding: 5px 22px;
+    background: #333333;
+
+
+}
+
+
+/* END HEADER AREA*/
+
+.container {width:450px}
+.header-top {
+    text-align: center;
+    margin-top: 10px;
+}
+.header-top.social {
+    margin-top: 10px;
+}
+
+.main-menu {
+    margin-bottom: 20px;
+}
+.main-menu ul li {
+    margin-left: 6px;
+}
+.main-menu ul li a {
+    font-size: 11px;
+}
+.header-search {
+    display: none;
+}
+.single-promotion{
+    margin-bottom: 30px;
+}
+.about-heading p {
+    width: 370px;
+    padding-bottom: 30px;
+}
+.about-right h2 {
+    margin-top: 30px;
+}
+.single-service img {
+    width: 100%;
+    height: auto;
+}
+.service-para {
+    width: 370px;
+    line-height: 26px;
+}
+.slider-description input {
+    margin-bottom: 20px;
+}
+.display-none{
+    display: none;
+}
+.chose-desc {
+    margin-top: 20px;
+}
+.single-widget img {
+    width: 40%;
+}
+.single-widget ul li a {
+    display: block;
+    font-size: 15px;
+}
+a.widget-post {
+    display: block;
+}
+
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+/* START HEADER AREA*/
+
+.email_header{
+    display: none;
+}
+
+.header-top a {
+    color: #fff;
+    transition: .3s;
+    font-size: 12px;
+}
+
+.header-top a i {
+    padding-right: 8px;
+    color: #fff;
+}
+
+.logo img {
+    width: 48px;
+    height: auto;
+}
+
+.main-menu{
+    display: none;
+}
+
+.reponsive_menu{
+    display: block;
+}
+
+.sidepanel {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 240px;
+    top: 0px;
+    right: 0px;
+    background-color: #666666;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 34px;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidepanel a:hover {
+    color: #333333;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 24px;
+}
+
+.openbtn {
+    font-size: 24px;
+    cursor: pointer;
+    color: #666666;
+    border: none;
+    background: none;
+    float: right;
+    padding-top: 12px;
+}
+
+.openbtn:hover {
+    color: #FE0000;
+}
+
+.responsive_menu_content ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.responsive_menu_content ul li{
+    color: #fff;
+}
+
+.responsive_menu_content ul li a {
+    color: #fff;
+    margin: 0;
+    padding: 5px 22px;
+    font-size: 16px;
+}
+
+.responsive_menu_content ul li a:hover {
+    color: #fff;
+    padding: 5px 22px;
+    background: #333333;
+
+
+}
+
+
+/* END HEADER AREA*/
+
+.single-request-call input[type="tel"] {
+    font-size: 13px;
+}
+.header-top a i {
+    padding-right: 2px;
+    margin-top: 10px;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 5px;
+}
+.main-menu ul li a{
+    font-size: 9px;
+}
+.header-search{
+    display: none;
+}
+.slider-description h2 {
+    font-size: 26px;
+}
+.single-promotion {
+    margin-bottom: 20px;
+}
+.about-heading h2 {
+    font-size: 18px;
+}
+.about-heading p {
+    font-size: 14px;
+    width: 277px;
+}
+.about-right h2 {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.about-right p {
+    font-size: 14px;
+    line-height: 25px;
+}
+button.btn {
+    font-size: 11px;
+    padding: 13px 14px;
+}
+.single-service.text-center h2 {
+    font-size: 18px;
+}
+.service-para {
+    width: 277px;
+    line-height: 26px;
+}
+.slider-description input {
+    height: 44px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 22px;
+    margin-top: 15px;
+}
+.reason-title {
+    padding: 0 0px 0px 19px;
+}
+.reason-title h4 {
+    font-size: 14px;
+    line-height: 27px;
+    margin-top: 20px;
+}
+.icon_area i {
+    font-size: 16px;
+    width: 37px;
+    height: 37px;
+    padding: 8px 8px;
+    margin-top: 20px;
+}
+.single-blog a h2 {
+    font-size: 22px;
+}
+.subscribe-desc h2 {
+    font-size: 17px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+}
+.single-widget img {
+    width: 40%;
+}
+.single-service img {
+    width: 100%;
+    height: auto;
+}
+.subscribe-desc input {
+    width: 100%;
+    height: 38px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+.subscribe-desc input[type="email"] {
+    font-size: 14px;
+    padding-left: 6px;
+    font-weight: 600;
+}
+.subscribe-desc a {
+    font-size: 14px;
+}
+a.widget-post {
+    padding-top: 20px;
+    display: block;
+}
+
+
+
+}

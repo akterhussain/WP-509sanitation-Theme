@@ -1,0 +1,193 @@
+/*
+Theme Name: 509sanitation
+Theme URI: http://509sanitation.com/
+Author:akterhussain
+Author URI: http://akterhussain.com/
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: cleaning
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+#menu-main-menu-1 {
+    margin-top: 34px;
+}
+section#about {
+    padding: 130px 0px;
+}
+section#service {
+    padding: 130px 0px;
+}
+.blog-area{
+    padding-top: 130px;
+}
+.single-request-call input[type=text], [type=tel], [type=submit] {
+    font-size: 13px;
+}
+.single-request-call input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: 0;
+}
+input.request-for-style {
+    background: red;
+    color: #fff;
+    width: 88%;
+    cursor: pointer;
+}
+.comment-meta.commentmetadata a {
+    color: #FF0000;
+}
+.reply a {
+    color: #222;
+    font-size: 11px;
+    font-weight: 600;
+}
+p.logged-in-as a {
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+}
+.admin-comment span a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #222;
+}
+.clean-subscription p {
+    display: inline-block;
+}
+
+.comments-area input[type=text], .comments-area input[type=email], .comments-area input[type=url], .comments-area textarea {
+    width: 100%;
+    border: 1px solid #ebebeb;
+    padding-left: 10px;
+    font-size: 13px;
+    outline: 0;
+}
+p.form-submit input[type=submit] {
+    border: none;
+    font-size: 13px;
+    background: red;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 14px;
+    cursor: pointer;
+}
+p.comment-form-author, .comment-form-email, .comment-form-url {
+    width: 31.33%;
+    float: left;
+    margin-left: 3%;
+}
+p.comment-form-author label, .comment-form-email label, .comment-form-url label,.comment-form-comment label{
+    display: none;
+}
+p.comment-form-author {
+    margin-left: 0;
+}
+p.comment-notes{
+    display: none;
+}
+h3#reply-title {
+    margin: 30px;
+    margin-left: 0;
+    font-size: 17px;
+}
+.comment-author.vcard img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+span.says {
+    display: none;
+}
+.comment-author.vcard {
+    margin: 10px 0px;
+}
+cite.fn a {
+    color: #222 !important;
+}
+
+
+/**/
+
+
+div.wpcf7-mail-sent-ok {
+    /* border: 2px solid #398f14; */
+    color: #398f14;
+    margin-top: 1px;
+    overflow: hidden;
+    margin: 41px 0 0 0px;
+    border: none !important;
+    font-size: 12px;
+}
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+    border: none;
+    color: #fff;
+    font-size: 11px;
+}
+
+/**/
+h2.widget-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+li.cat-item a {
+    color: #222;
+    font-weight: 600;
+}
+li.cat-item {
+    font-size: 16px;
+    margin-bottom: 14px;
+    color: #222;
+    display: block;
+}
+.single-recent-project img {
+    width: 100%;
+    height: 100px;
+    margin-right: 6px;
+    margin-bottom: 12px;
+}
+
+
+
+
+span.wpcf7-not-valid-tip {
+    color: #f00;
+    font-size: 14px;
+    font-weight: normal;
+    display: inline-block;
+}
+
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #398f14;
+    color: #398f14;
+    margin-top: 1px;
+    overflow: hidden;
+    margin: 41px 0 0 0px;
+}
+
+
+
+/**
+*
+*single service style here
+*
+*/
+div#recent-posts-3 ul li a {
+    font-size: 15px;
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 11px;
+    display: block;
+}
+
+
+
+
